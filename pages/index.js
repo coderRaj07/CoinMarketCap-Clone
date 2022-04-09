@@ -24,7 +24,7 @@ export default function Home(props) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 <body>
-   <h1  class="text-center text-warning text-uppercase">Live CoinMarketCap Details</h1>
+   <h1  className="text-center text-warning text-uppercase">Live CoinMarketCap Details</h1>
       <table className='table'>
 
         <thead>
