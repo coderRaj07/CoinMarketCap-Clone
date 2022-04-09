@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import CoinGecko  from 'coingecko-api'
 const CoinGeckoClient=new CoinGecko();
 
@@ -24,7 +25,7 @@ export default function Home(props) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 <body>
-   <h1  className="text-center text-warning text-uppercase">Live CoinMarketCap Details</h1>
+   <h1  class="text-center text-warning text-uppercase">Live CoinMarketCap Details</h1>
       <table className='table'>
 
         <thead>
